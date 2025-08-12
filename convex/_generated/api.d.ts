@@ -14,7 +14,7 @@ import type {
   FunctionReference,
 } from "convex/server";
 import type * as http from "../http.js";
-import type * as plans from ../plans.jsjs";
+import type * as plans from "../plans.js";
 import type * as users from "../users.js";
 
 /**
