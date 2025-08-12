@@ -92,7 +92,7 @@ http.route({
   handler: httpAction(async (ctx, request) => {
     try {
       const payload = await request.json();
-      const pythonApiUrl = "http://localhost:8000/api/fitness_generator";
+      const pythonApiUrl = "https://fitnessflex-production.up.railway.app/api/fitness_generator";
       console.log("[CONVEX] Sending request to Python backend:", {
         url: pythonApiUrl,
         payload,
